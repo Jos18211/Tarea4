@@ -1,0 +1,42 @@
+﻿#menu {
+  float: left;
+   margin-left: 2%;
+    width: 96%;
+    padding-right: 4%;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #488000;
+    
+}
+
+
+
+#container .principal {
+    float: left;
+    
+    color: #fff;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 25px 20px 25px;
+}
+
+#container a:hover {
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #73D673;
+}
+
+#container a.last {
+    border-right: 0px;
+}
+
+
+
+@media screen and (max-width:700px) {
+    #container, #container .principal {
+        width: 100%;
+        border-right: 0px;
+    }
+}
